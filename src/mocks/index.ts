@@ -1,0 +1,72 @@
+export const users = [
+    {
+      "_id": "6651ef848a0fe8132d6e10e6",
+      "isActive": false,
+      "balance": "$2,088.37",
+      "picture": "http://placehold.it/32x32",
+      "age": 35,
+      "eyeColor": "brown",
+      "name": "Webster Sanford",
+      "gender": "male",
+      "company": "MUSAPHICS",
+      "email": "webstersanford@musaphics.com",
+      "phone": "+1 (929) 473-2537",
+      "address": "601 Dorset Street, Interlochen, South Carolina, 7508"
+    },
+    {
+      "_id": "6651ef84fe88c057aaa6889e",
+      "isActive": false,
+      "balance": "$1,766.32",
+      "picture": "http://placehold.it/32x32",
+      "age": 40,
+      "eyeColor": "green",
+      "name": "Corine Farley",
+      "gender": "female",
+      "company": "EVEREST",
+      "email": "corinefarley@everest.com",
+      "phone": "+1 (813) 436-2129",
+      "address": "959 Columbia Street, Como, New Mexico, 1328"
+    },
+    {
+      "_id": "6651ef84528f7a89fd94ae13",
+      "isActive": true,
+      "balance": "$2,213.08",
+      "picture": "http://placehold.it/32x32",
+      "age": 23,
+      "eyeColor": "brown",
+      "name": "Nichole Warren",
+      "gender": "female",
+      "company": "CENTREE",
+      "email": "nicholewarren@centree.com",
+      "phone": "+1 (927) 532-3514",
+      "address": "937 Whitney Avenue, Talpa, Illinois, 694"
+    },
+    {
+      "_id": "6651ef845034f5197a790906",
+      "isActive": false,
+      "balance": "$1,686.55",
+      "picture": "http://placehold.it/32x32",
+      "age": 25,
+      "eyeColor": "green",
+      "name": "Debora Mccarty",
+      "gender": "female",
+      "company": "RUGSTARS",
+      "email": "deboramccarty@rugstars.com",
+      "phone": "+1 (973) 592-2229",
+      "address": "876 Bay Avenue, Klagetoh, Kentucky, 4307"
+    },
+    {
+      "_id": "6651ef84a44f4cdda2cd5124",
+      "isActive": true,
+      "balance": "$1,027.84",
+      "picture": "http://placehold.it/32x32",
+      "age": 30,
+      "eyeColor": "green",
+      "name": "Ruthie Trujillo",
+      "gender": "female",
+      "company": "FRANSCENE",
+      "email": "ruthietrujillo@franscene.com",
+      "phone": "+1 (851) 431-3748",
+      "address": "204 Adelphi Street, Staples, Vermont, 1824"
+    }
+  ]
