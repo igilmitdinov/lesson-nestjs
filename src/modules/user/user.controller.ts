@@ -14,7 +14,6 @@ export class UserController {
     @Patch()
     updateUser(@Body() updateDto: UpdateUserDTO, @Req() request): Promise<UpdateUserDTO> {
         const user = request.user
-        console.log(user)
         if (!user) {
             throw new Error('User not found');
         }
@@ -24,7 +23,7 @@ export class UserController {
     @ApiTags('API')
     @UseGuards(JwtAuthGuard)
     @Delete()
-    deleteUser (@Req() request) {
+    deleteUser (@Req() request): Promise<boolean> {
         const user = request.user
         console.log(user)
         return this.userSevice.deleteUser(user.email)
